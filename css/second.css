@@ -1,0 +1,46 @@
+@font-face {
+    font-family: sail;
+    src: url(../fonts/Sail-Regular.ttf);
+}
+
+body{
+    font-family: sail;
+    margin: 0;
+    background-color: #ffe9f4;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #ffc1cb;
+  text-align: center;
+
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #ffc1cb;
+
+    
+  }
+  
+  
+  .navbar a {
+    float: left;
+    font-size: 20px;
+    color: black;
+    
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  
+  
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: #ff6781;
+    border-radius: 4px;
+  }
+  
