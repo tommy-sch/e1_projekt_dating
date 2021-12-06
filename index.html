@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+</head>
+
+<body>
+
+    <header>
+        <div class="inner">
+            <div class="h_txt">
+                <div>
+                    Dating auf Ihrem Niveau | Für Lehrer von Schülern
+                </div>
+            </div>
+
+            <nav>
+                
+                <li><span><a href="s/info.html">Über uns</a></span></li>
+                <li><span><a onclick="document.getElementById('id01').style.display='block'" class="button">Login</a></span></li>
+                
+                <div id="id01" class="modal">
+  
+                    <form class="modal-content animate" action="s/Dating.html" method="post">
+                      <div class="imgcontainer">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                        
+                      </div>
+                  
+                      <div class="container">
+                        <label for="uname"><b>Username</b></label>
+                        <input type="text" placeholder="Username" name="uname" required>
+                  
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Password" name="psw" required>
+                          
+                        <button type="submit">Login</button>
+                        
+                        
+                      </div>
+                  
+                      <div class="container" style="background-color:#f1f1f1">
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Abbrechen</button>
+                        
+                        
+                      </div>
+                    </form>
+                  </div>
+                  
+                  <li><span><a onclick="document.getElementById('id02').style.display='block'" class="button">Registrieren</a></span></li>
+                
+                <div id="id02" class="modal">
+  
+                    <form class="modal-content animate" action="s/reg_suc.html" method="post">
+                      <div class="imgcontainer">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                        
+                      </div>
+                  
+                      <div class="container">
+                        <label for="vname"><b>Vor- und Nachname *</b></label>
+                        <input type="text" placeholder="Max Mustermann" name="vname" required>
+
+                        <label for="vname"><b>Geburtstag *</b></label>
+                        <input type="text" placeholder="tt/mm/jjjj" name="date" required>
+
+                        <label for="ort"><b>PLZ + Wohnort *</b></label>
+                        <input type="text" placeholder="63065 Offenbach am Main" name="ort" required>
+
+                        <label for="ort"><b>Schule</b></label>
+                        <input type="text" placeholder="Rudolf Koch Schule" name="school">
+
+                        <label for="ort"><b>Schulform *</b></label>
+                        <input type="text" placeholder="Gymnasium" name="art" required>
+
+                        <label for="ort"><b>Fächer *</b></label>
+                        <input type="text" placeholder="Englisch, Sport" name="subs" required>
+
+                        <label for="ort"><b>E Mail Adresse *</b></label>
+                        <input type="text" placeholder="max.mustermann@mustermail.de" name="mail" required>
+
+                          
+                        <button type="submit">Absenden</button>
+                        
+                        
+                      </div>
+                  
+                      <div class="container" style="background-color:#f1f1f1">
+                        <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Abbrechen</button>
+                        
+                        
+                      </div>
+                    </form>
+                  </div>
+                  
+                  
+
+            </nav>
+        </div>
+    </header>
+
+    <div class="card">
+        <div class="card-img-box">
+            <img src="img/bad_tea.jpeg">
+        </div>
+        <div class="card-text">
+            <p>Geile Bräute und Hässliche Männer,<br>
+                der optimale Ort zum verlieben und kennen lernen!<br>
+                Männer mit Köpfchen<br>
+                und<br>
+                Frauen mit Körbchen <br></p>
+        </div>
+        <div class="card-button">
+            <a href="s/info.html" class="button">Mehr erfahren</a>
+        </div>
+    </div>
+
+    
+
+</body>
+
+
+</html>
